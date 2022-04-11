@@ -1,20 +1,45 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
+import { NavigationContainer } from '@react-navigation/native';
+import MainPage from './src/screen/main_page';
+import ProfilFarras from './src/screen/profil_page';
+
+const Tab = createBottomTabNavigator();
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <NavigationContainer>
+      <Tab.Navigator
+
+        screenOptions={{
+          tabBarActiveTintColor: '#206378',
+          headerShown: false,
+          tabBarStyle: { position: 'absolute' },
+          tabBarStyle: { height: 70, backgroundColor: '#FCFEFF', },
+
+        }}
+
+      >
+
+        <Tab.Screen
+          name="MainPage"
+          component={MainPage}
+          options={{
+            tabBarIcon: ({ color, size }) => (
+              <MaterialCommunityIcons name="barcode-scan" color={color} size={30} />
+            ),
+          }} />
+
+        <Tab.Screen
+          name="Creator"
+          component={ProfilFarras}
+          options={{
+            tabBarIcon: ({ color, size }) => (
+              <MaterialCommunityIcons name="account" color={color} size={30} />
+            ),
+          }} />
+      </Tab.Navigator>
+    </NavigationContainer>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
