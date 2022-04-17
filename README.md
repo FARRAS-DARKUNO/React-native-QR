@@ -13,7 +13,7 @@ aplikasi ini bertujuan untuk memindai barcode RQ dan barcode Batang
 ![WhatsApp Image 2022-04-17 at 20 01 32 (1)](https://user-images.githubusercontent.com/83520627/163715602-1cde607e-327d-4055-a8e0-b1e881c0762b.jpeg)
 
 
-#Daftar Packed Yang di gunakan :
+# Daftar packet yang di gunakan :
 
 "@react-navigation/bottom-tabs": "^6.3.1",
 "@react-navigation/native": "^6.0.10",
@@ -32,13 +32,14 @@ aplikasi ini bertujuan untuk memindai barcode RQ dan barcode Batang
 "react-native-web": "0.17.1",
 "expo-updates": "~0.11.6"
 
-#Cara Menginstall Aplikasi :
+# Cara menginstall aplikasi :
+
 1.  download https://drive.google.com/file/d/1M76NaCpVXW0Omd-O1JQpqN2in9Lo3GrC/view?usp=sharing
 2.  extract file ZIP
 3.  install aplikasi APK
 4.  enjoooooooy
 
-Code :
+# Code :
 
 
 ![Screenshot from 2022-04-17 20-07-15](https://user-images.githubusercontent.com/83520627/163715672-20cfe37a-0bfc-4df2-b5cf-806288eac5bb.png)
