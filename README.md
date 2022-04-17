@@ -15,22 +15,23 @@ aplikasi ini bertujuan untuk memindai barcode RQ dan barcode Batang
 
 # Daftar packet yang di gunakan :
 
-"@react-navigation/bottom-tabs": "^6.3.1",
-"@react-navigation/native": "^6.0.10",
-"@react-navigation/native-stack": "^6.6.1",
+1. "@react-navigation/bottom-tabs": "^6.3.1"
+2. "@react-navigation/native": "^6.0.10",
+3. "@react-navigation/native-stack": "^6.6.1",
 
-"expo": "~44.0.0",
-"expo-barcode-scanner": "~11.2.0",
-"expo-status-bar": "~1.2.0",
+4. "expo": "~44.0.0",
+5. "expo-barcode-scanner": "~11.2.0",
+6. "expo-status-bar": "~1.2.0",
 
-"react": "17.0.1",
-"react-dom": "17.0.1",
-"react-native": "0.64.3",
-"react-native-safe-area-context": "3.3.2",
-"react-native-screens": "~3.10.1",
-"react-native-vector-icons": "^9.1.0",
-"react-native-web": "0.17.1",
-"expo-updates": "~0.11.6"
+7. "react": "17.0.1",
+8. "react-dom": "17.0.1",
+9. "react-native": "0.64.3",
+10. "react-native-safe-area-context": "3.3.2",
+11. "react-native-screens": "~3.10.1",
+12. "react-native-vector-icons": "^9.1.0",
+13. "react-native-web": "0.17.1",
+14. "expo-updates": "~0.11.6"
+
 
 # Cara menginstall aplikasi :
 
